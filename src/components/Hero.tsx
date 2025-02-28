@@ -1,5 +1,5 @@
 import profilePic from "../assets/imagen-perfil.webp";
-import { HERO_CONTENT } from "../constants";
+import { HERO_CONTENT } from "../constants/index.ts";
 import { motion } from "framer-motion";
 
 const containerVariants = {

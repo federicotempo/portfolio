@@ -11,9 +11,9 @@ import {
 } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
-const iconVariants = (duration: number) => ({
+const iconVariants = (duration: number): Variants => ({
   initial: { y: -10 },
   animate: {
     y: [10, -10],
