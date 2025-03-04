@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import ScrollToTop from "./components/ScrollToTop";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Technologies></Technologies>
         <Projects></Projects>
         <Contact></Contact>
+        <ScrollToTop></ScrollToTop>
       </div>
     </div>
   );
